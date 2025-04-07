@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Corner Star Metsäkulma - Menu</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            margin: 20px;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        h1, h2 {
+            color: #d35400; /* Nice pizza-y orange */
+            text-align: center;
+        }
+        .menu-section {
+            background-color: #fff;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        .menu-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 0;
+            border-bottom: 1px dashed #ccc;
+        }
+        .menu-item:last-child {
+            border-bottom: none;
+        }
+        .item-name {
+            flex-grow: 1;
+            font-weight: bold;
+        }
+        .item-ingredients {
+            color: #777;
+            font-size: 0.9em;
+            margin-left: 15px;
+        }
+        .item-price {
+            font-weight: bold;
+            color: #e74c3c; /* A bit of red for the price */
+            margin-left: 20px;
+        }
+        .special-offers {
+            background-color: #f9e79f; /* Yellow for specials */
+            padding: 15px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            text-align: center;
+            font-weight: bold;
+        }
+        .drink-options {
+            text-align: center;
+            margin-top: 20px;
+            color: #555;
+        }
+        .topping-list {
+            color: #777;
+            font-size: 0.9em;
+            white-space: pre-line; /* Preserve line breaks for readability */
+        }
+        .section-title {
+            border-bottom: 2px solid #d35400;
+            padding-bottom: 5px;
+            margin-bottom: 15px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Corner Star Metsäkulma</h1>
+    <p style="text-align: center; font-style: italic; color: #555;">Nauti herkullisista pizzoista ja muista antimista!</p>
+
+    <div class="special-offers">
+        TARJOUS Ti-PE 11-21: Kaikki pizzat ja kebabit + 0,33 l juoma hintaan 9,00 € (kuljetusmaksu 4,00 €)
+    </div>
+
+    <div class="menu-section">
+        <h2 class="section-title">Pizzat</h2>
+        <div class="menu-item">
+            <div class="item-name">1. MARGHERITA</div>
+            <div class="item-ingredients">tuoretta tomaattia, mozzarella</div>
+            <div class="item-price">Norm. 10,50 € / Perhe 17,00 €</div>
+        </div>
+        <div class="menu-item">
+            <div class="item-name">2. BOLOGNESE</div>
+            <div class="item-ingredients">bolognese-kastike</div>
+            <div class="item-price">Norm. 10,00 € / Perhe 17,00 €</div>
+        </div>
+        <div class="menu-item">
+            <div class="item-name">3. FRANCESCANA</div>
+            <div class="item-ingredients">pizzasuikale, herkkusieni</div>
+            <div class="item-price">Norm. 9,00 € / Perhe 17,00 €</div>
+        </div>
+        <div class="menu-item">
+            <div class="item-name">4. MUTT! DI MARE</div>
+            <div class="item-ingredients">tonnikala, simpukka, katkarapu</div>
+            <div class="item-price">Norm. 10,00 € / Perhe 17,00 €</div>
+        </div>
+        <div class="menu-item">
+            <div class="item-name">5. AMERICANO</div>
+            <div class="item-ingredients">pizzasuikale, ananas, sinihomejuusto</div>
+            <div class="item-price">Norm. 10,50 € / Perhe 18,00 €</div>
+        </div>
+        <div class="menu-item">
+            <div class="item-name">6. VEGETARIANA</div>
+            <div class="item-ingredients">herkkusieni, paprika, sipuli, oliivi</div>
+            <div class="item-price">Norm. 10,00 € / Perhe 19,00 €</div>
+        </div>
+        <div class="menu-item">
+            <div class="item-name">7. MEXICANO</div>
+            <div class="item-ingredients">pepperoni, jalapeno, paprika</div>
+            <div class="item-price">Norm. 10,00 € / Perhe 19,00 €</div>
+        </div>
+        <div class="menu-item">
+            <div class="item-name">8. SUPER PIZZA</div>
+            <div class="item-ingredients">meetvursti, pekoni, pizzasuikale</div>
+            <div class="item-price">Norm. 10,00 € / Perhe 19,00 €</div>
+        </div>
+        <div class="menu-item">
+            <div class="item-name">9. CHICKEN HAM!</div>
+            <div class="item-ingredients">paandettu broileri, ananas, aurajuusto</div>
+            <div class="item-price">Norm. 11,00 € / Perhe 19,00 €</div>
+        </div>
+        <div class="menu-item">
+            <div class="item-name">10. OPERA SPECIAL</div>
+            <div class="item-ingredients">pizzasuikale, tonnikala, meetvursti</div>
+            <div class="item-price">Norm. 10,00 € / Perhe 19,00 €</div>
+        </div>
+        <div class="menu-item">
+            <div class="item-name">11. DILLINGER</div>
+            <div class="item-ingredients">meetvursti, pizzasuikale, bolognese-kastike, sipuli</div>
+            <div class="item-price">Norm. 11,00 € / Perhe 19,00 €</div>
+        </div>
+        <div class="menu-item">
+            <div class="item-name">12. QUATTRO</div>
+            <div class="item-ingredients">pizzasuikale, katkarapu, herkkusieni, paprika</div>
+            <div class="item-price">Norm. 11,00 € / Perhe 19,00 €</div>
+        </div>
+        <div class="menu-item">
+            <div class="item-name">13. JULIA</div>
+            <div class="item-ingredients">pizzasuikale, ananas, katkarapu, sinihomejuusto</div>
+            <div class="item-price">Norm. 11,00 € / Perhe 19,00 €</div>
+        </div>
+        <div class="menu-item">
+            <div class="item-name">14. ROMEO</div>
+            <div class="item-ingredients">meetvursti, ananas, katkarapu, sinuhomejuusto</div>
+            <div class="item-price">Norm. 11,00 € / Perhe 19,00 €</div>
+        </div>
+        <div class="menu-item">
+            <div class="item-name">15. EMPIRE SPECIAL</div>
+            <div class="item-ingredients">katkarapu, meetvursti, pizzasuik., tuplaj., sipuli, vs</div>
+            <div class="item-price">Norm. 11,00 € / Perhe 19,00 €</div>
+        </div>
+        <div class="menu-item">
+            <div class="item-name">16. KUMMISETA</div>
+            <div class="item-ingredients">pizzasuikale, herkkusieni, katkarapu, tuplajuusto, vs</div>
+            <div class="item-price">Norm. 11,00 € / Perhe 19,00 €</div>
+        </div>
+        <div class="menu-item">
+            <div class="item-name">17. PEPPERONI</div>
+            <div class="item-ingredients">pepperoni, sipuli, jalapeno, vihrea chili, kebabliha</div>
+            <div class="item-price">Norm. 11,00 € / Perhe 19,00 €</div>
+        </div>
+        <div class="menu-item">
+            <div class="item-name">18. ITALIA</div>
+            <div class="item-ingredients">meetvursti, sipuli, oliivi, katkarapu, aurajuusto</div>
+            <div class="item-price">Norm. 11,00 € / Perhe 20,00 €</div>
+        </div>
+        <div class="menu-item">
+            <div class="item-name">19. FORMAGGIO</div>
+            <div class="item-ingredients">edamjuusto, aurajuusto, salaattijuusto, mozzarella</div>
+            <div class="item-price">Norm. 11,00 € / Perhe 20,00 €</div>
+        </div>
+        <div class="menu-item">
+            <div class="item-name">20. FETA PIZZA</div>
+            <div class="item-ingredients">pepperoni, salaattij., kana, herkkusieni, punasipuli</div>
+            <div class="item-price">Norm. 11,00 € / Perhe 20,00 €</div>
+        </div>
+        <div class="menu-item">
+            <div class="item-name">21. SMETANA PIZZA</div>
+            <div class="item-ingredients">kebabliha, salaattijuusto, jalapeno, sipuli, tomaatti, smetana, valkosipuli</div>
+            <div class="item-price">Norm. 11,00 € / Perhe 20,00 €</div>
+        </div>
+        <div class="menu-item">
+            <div class="item-name">22. SUOMI SPECIAL</div>
+            <div class="item-ingredients">pizzas., meetvursti, ananas, katkarapu, sinihomej.</div>
+            <div class="item-price">Norm. 11,00 € / Perhe 20,00 €</div>
+        </div>
+        <div class="menu-item">
+            <div class="item-name">23. BEEFY CRISPY</div>
+            <div class="item-ingredients">pizzas., meetvursti, paprika, sinihomej., ananas</div>
+            <div class="item-price">Norm. 11,00 € / Perhe 20,00 €</div>
+        </div>
+        <div class="menu-item">
+            <div class="item-name">24. HANGOVER</div>
+            <div class="item-ingredients">tulinen salsakastike, mozzarella, meetvursti, pekoni, maustekurkku, jalapeno</div>
+            <div class="item-price">Norm. 11,00 € / Perhe 20,00 €</div>
+        </div>
+        <div class="menu-item">
+            <div class="item-name">25. SISILIAN TULINEN</div>
+            <div class="item-ingredients">rneetvursti, sipuli, katkarapu, jalapeno, paprika</div>
+            <div class="item-price">Norm. 11,00 € / Perhe 20,00 €</div>
+        </div>
+        <div class="menu-item">
+            <div class="item-name">26. TEXAN STYLE BBQ</div>
+            <div class="item-ingredients">kana, pekoni, mozzarella, sipuli, blaq-kastike</div>
+            <div class="item-price">Norm. 11,00 € / Perhe 20,00 €</div>
+        </div>
+        <div class="menu-item">
+            <div class="item-name">27. METSAKULMA SPECIAL</div>
+            <div class="item-ingredients">meetvursti, pepperoni, pizzasuikale, pekoni, rucola, talon majoneesi, valkosipulikastike</div>
+            <div class="item-price">Norm. 11,00 € / Perhe 20,00 €</div>
+        </div>
+        <div class="menu-item">
+            <div class="item-name">28. FINLANDIA</div>
+            <div class="item-ingredients">meetvursti, pizzasuikale, katkarapu, sinihomejuusto</div>
+            <div class="item-price">Norm. 11,00 € / Perhe 20,00 €</div>
+        </div>
+        <div class="menu-item">
+            <div class="item-name">29. KUTEN HALUATTE</div>
+            <div class="item-ingredients">4 eri taytetta valintasi mukaan+kastike</div>
+            <div class="item-price">Norm. 11,00 € / Perhe 20,00 €</div>
+        </div>
+    </div>
+
+    <div class="menu-section">
+        <h2 class="section-title">Special Pizzat</h2>
+        <div class="menu-item">
+            <div class="item-name">30. SPICY VEGE</div>
+            <div class="item-ingredients">jalapeno, tomaatti, mozzarella, kapris, sipuli</div>
+            <div class="item-price">Norm. 11,00 € / Perhe 20,00 €</div>
+        </div>
+        <div class="menu-item">
+            <div class="item-name">31. ITALIANO CLASSICO</div>
+            <div class="item-ingredients">pepperoni, pizzasuikale, herkkusieni, katkarapu, oliivi, mozzarella, rucola</div>
+            <div class="item-price">Norm. 13,00 € / Perhe 18,50 €</div>
+        </div>
+        <div class="menu-item">
+            <div class="item-name">32. ANNABELLA</div>
+            <div class="item-ingredients">feta, pesto, vuohenjuusto, rucola, tuore paprika</div>
+            <div class="item-price">Norm. 13,00 € / Perhe 18,50 €</div>
+        </div>
+        <div class="menu-item">
+            <div class="item-name">33. PIZZA LA MARGERITTA</div>
+            <div class="item-ingredients">buffalo mozzarella, kirsikkatomaatti, rucola</div>
+            <div class="item-price">Norm. 13,00 € / Perhe 18,50 €</div>
+        </div>
+        <div class="menu-item">
+            <div class="item-name">34. ZORPAS</div>
+            <div class="item-ingredients">vuohenjuusto, paholaisenhillo, oliivi, punasipuli, rucola</div>
+            <div class="item-price">Norm. 13,00 € / Perhe 20,50 €</div>
+        </div>
+        <div class="menu-item">
+            <div class="item-name">35. MIESTEN VEGA-PIZZA</div>
+            <div class="item-ingredients">bolognese-kastike, meetvursti, pepperoni, kinkku, kana,kebab, pekoni</div>
+            <div class="item-price">Norm. 13,00 € / Perhe 20,50 €</div>
+        </div>
+        <div class="menu-item">
+            <div class="item-name">36. BACCO</div>
+            <div class="item-ingredients">mozzarella, aurajuusto, herkkusieni, pizzas., rucola</div>
+            <div class="item-price">Norm. 13,00 € / Perhe 18,50 €</div>
+        </div>
+        <div class="menu-item">
+            <div class="item-name">37. RUCOLA PIZZA</div>
+            <div class="item-ingredients">tuore rucola,

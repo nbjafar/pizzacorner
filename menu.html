@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Corner Star Metsäkulma Menu</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #fdfdfd;
+      color: #333;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #222;
+      color: white;
+      text-align: center;
+      padding: 2rem 1rem;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+
+    .menu-container {
+      max-width: 1100px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+    }
+
+    .category {
+      background-color: #f4f4f4;
+      margin: 2rem 0;
+      padding: 1rem;
+      border-left: 6px solid #e74c3c;
+      border-radius: 4px;
+    }
+
+    .category h2 {
+      margin-top: 0;
+      color: #e74c3c;
+    }
+
+    .menu-item {
+      display: flex;
+      justify-content: space-between;
+      border-bottom: 1px dashed #ccc;
+      padding: 0.5rem 0;
+    }
+
+    .menu-item span {
+      font-weight: bold;
+      color: #555;
+    }
+
+    .menu-description {
+      font-style: italic;
+      color: #666;
+      margin-bottom: 0.5rem;
+    }
+
+    .search-container {
+      text-align: center;
+      margin: 2rem;
+    }
+
+    .search-container input {
+      width: 60%;
+      padding: 0.75rem;
+      border-radius: 6px;
+      border: 1px solid #ccc;
+      font-size: 1rem;
+    }
+  </style>
+  <script>
+    function searchMenu() {
+      let input = document.getElementById("searchInput").value.toLowerCase();
+      let items = document.getElementsByClassName("menu-item");
+
+      for (let i = 0; i < items.length; i++) {
+        let text = items[i].textContent.toLowerCase();
+        items[i].style.display = text.includes(input) ? "flex" : "none";
+      }
+    }
+  </script>
+</head>
+<body>
+  <header>
+    <h1>Corner Star Metsäkulma Menu</h1>
+  </header>
+
+  <div class="search-container">
+    <input type="text" id="searchInput" placeholder="Search menu..." onkeyup="searchMenu()">
+  </div>
+
+  <div class="menu-container">
+    <div class="category">
+      <h2>Pizzat</h2>
+      <div class="menu-item"><div>1. Margherita</div><span>7.00€</span></div>
+      <div class="menu-item"><div>2. Bolognese</div><span>9.00€</span></div>
+      <div class="menu-item"><div>3. Opera Special</div><span>10.00€</span></div>
+      <div class="menu-item"><div>4. Frutti di Mare</div><span>10.00€</span></div>
+      <div class="menu-item"><div>5. Americana</div><span>10.00€</span></div>
+      <div class="menu-item"><div>6. Mexicana</div><span>10.00€</span></div>
+      <div class="menu-item"><div>7. Pepperoni</div><span>10.00€</span></div>
+      <div class="menu-item"><div>8. Capricciosa</div><span>10.00€</span></div>
+      <div class="menu-item"><div>9. Frutti di Carne</div><span>10.00€</span></div>
+      <div class="menu-item"><div>10. Opera Special II</div><span>10.00€</span></div>
+    </div>
+
+    <div class="category">
+      <h2>Kebab / Kanakebab</h2>
+      <div class="menu-item"><div>K1. Kebab ranskalaisilla</div><span>10.00€</span></div>
+      <div class="menu-item"><div>K2. Kebab riisillä</div><span>10.00€</span></div>
+      <div class="menu-item"><div>K3. Kebab lohkoperunoilla</div><span>10.00€</span></div>
+      <div class="menu-item"><div>K4. Kebab salaatilla</div><span>10.00€</span></div>
+      <div class="menu-item"><div>K5. Iskender kebab</div><span>12.00€</span></div>
+      <div class="menu-item"><div>K6. Rulla kebab</div><span>10.00€</span></div>
+    </div>
+
+    <div class="category">
+      <h2>Burgerit</h2>
+      <div class="menu-item"><div>B1. Hampurilainen</div><span>8.00€</span></div>
+      <div class="menu-item"><div>B2. Juustohampurilainen</div><span>9.00€</span></div>
+      <div class="menu-item"><div>B3. Tuplajuusto</div><span>10.00€</span></div>
+      <div class="menu-item"><div>B4. Kana burger</div><span>10.00€</span></div>
+      <div class="menu-item"><div>B5. Pekoni burger</div><span>11.00€</span></div>
+      <div class="menu-item"><div>B6. Mega burger</div><span>12.00€</span></div>
+    </div>
+
+    <div class="category">
+      <h2>Juomat</h2>
+      <div class="menu-item"><div>J1. 0.33L limu</div><span>3.00€</span></div>
+      <div class="menu-item"><div>J2. 0.5L limu</div><span>4.00€</span></div>
+      <div class="menu-item"><div>J3. 1.5L limu</div><span>5.00€</span></div>
+      <div class="menu-item"><div>J4. Vesi</div><span>2.00€</span></div>
+      <div class="menu-item"><div>J5. Kahvi</div><span>2.00€</span></div>
+      <div class="menu-item"><div>J6. Tee</div><span>2.00€</span></div>
+    </div>
+  </div>
+</body>
+</html>
+
