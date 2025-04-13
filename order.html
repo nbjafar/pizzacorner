@@ -1694,7 +1694,30 @@
         <button class="whatsapp-btn" onclick="prepareOrder()">💬 Tilaa WhatsAppissa!</button>
     </div>
 
+    <!-- Add hit counter here -->
+    <div style="text-align: center; margin: 20px 0;">
+        <!-- Histats.com  (div with counter) -->
+        <div id="histats_counter"></div>
+    </div>
 
+    <!-- Histats.com START -->
+    <script type="text/javascript">
+        var _Hasync= _Hasync|| [];
+        _Hasync.push(['Histats.start', '1,4942229,4,2050,280,25,00010000']);
+        _Hasync.push(['Histats.fasi', '1']);
+        _Hasync.push(['Histats.track_hits', '']);
+        (function() {
+        var hs = document.createElement('script'); hs.type = 'text/javascript'; hs.async = true;
+        hs.src = ('//s10.histats.com/js15_as.js');
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(hs);
+        })();
+    </script>
+    <noscript>
+        <a href="/" target="_blank"><img src="//sstatic1.histats.com/0.gif?4942229&101" alt="" border="0"></a>
+    </noscript>
+    <!-- Histats.com END -->
+
+    
     <script>
         function prepareOrder() {
             let message = "Hei! Haluaisin tilata seuraavat tuotteet:\n\n";
@@ -1734,7 +1757,5 @@
             }
         }
     </script>
-
-
 </body>
 </html>
