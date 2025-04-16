@@ -132,7 +132,7 @@
         }
             .delivery-options {
             text-align: center;
-            margin: 20px 0;
+            margin: 10px 0;
         }
         .delivery-options label {
             margin: 0 15px;
