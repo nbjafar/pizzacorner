@@ -177,13 +177,13 @@
                         <div>Norm (32cm)</div>
                         <div class="price">€10.50</div>
                         <input type="number" class="quantity-input" min="0" value="0" 
-                               data-item="MARGHERITA" data-size="Norm" data-price="12.90">
+                               data-item="MARGHERITA" data-size="Norm" data-price="10.50">
                     </div>
                     <div class="size-option">
                         <div>Perhe (45cm)</div>
                         <div class="price">€17.00</div>
                         <input type="number" class="quantity-input" min="0" value="0" 
-                               data-item="MARGHERITA" data-size="Perhe" data-price="18.90">
+                               data-item="MARGHERITA" data-size="Perhe" data-price="17.00">
                     </div>
                 </div>
             </div>
@@ -197,13 +197,13 @@
                         <div>Norm (32cm)</div>
                         <div class="price">€10.00</div>
                         <input type="number" class="quantity-input" min="0" value="0" 
-                               data-item="BOLOGNESE" data-size="Norm" data-price="12.90">
+                               data-item="BOLOGNESE" data-size="Norm" data-price="10.00">
                     </div>
                     <div class="size-option">
                         <div>Perhe (45cm)</div>
                         <div class="price">€17.00</div>
                         <input type="number" class="quantity-input" min="0" value="0" 
-                               data-item="BOLOGNESE" data-size="Perhe" data-price="18.90">
+                               data-item="BOLOGNESE" data-size="Perhe" data-price="17.00">
                     </div>
                 </div>
             </div>
@@ -217,13 +217,13 @@
                         <div>Norm (32cm)</div>
                         <div class="price">€9.00</div>
                         <input type="number" class="quantity-input" min="0" value="0" 
-                               data-item="FRANCESCANA" data-size="Norm" data-price="12.90">
+                               data-item="FRANCESCANA" data-size="Norm" data-price="9.00">
                     </div>
                     <div class="size-option">
                         <div>Perhe (45cm)</div>
                         <div class="price">€17.00</div>
                         <input type="number" class="quantity-input" min="0" value="0" 
-                               data-item="FRANCESCANA" data-size="Perhe" data-price="18.90">
+                               data-item="FRANCESCANA" data-size="Perhe" data-price="17.00">
                     </div>
                 </div>
             </div>
@@ -237,13 +237,13 @@
                         <div>Norm (32cm)</div>
                         <div class="price">€10.00</div>
                         <input type="number" class="quantity-input" min="0" value="0" 
-                               data-item="FRUTTI DI MARE" data-size="Norm" data-price="12.90">
+                               data-item="FRUTTI DI MARE" data-size="Norm" data-price="10.00">
                     </div>
                     <div class="size-option">
                         <div>Perhe (45cm)</div>
                         <div class="price">€17.00</div>
                         <input type="number" class="quantity-input" min="0" value="0" 
-                               data-item="FRUTTI DI MARE" data-size="Perhe" data-price="18.90">
+                               data-item="FRUTTI DI MARE" data-size="Perhe" data-price="17.00">
                     </div>
                 </div>
             </div>
@@ -257,13 +257,13 @@
                         <div>Norm (32cm)</div>
                         <div class="price">€10.50</div>
                         <input type="number" class="quantity-input" min="0" value="0" 
-                               data-item="AMERICANO" data-size="Norm" data-price="12.90">
+                               data-item="AMERICANO" data-size="Norm" data-price="10.50">
                     </div>
                     <div class="size-option">
                         <div>Perhe (45cm)</div>
                         <div class="price">€18.00</div>
                         <input type="number" class="quantity-input" min="0" value="0" 
-                               data-item="AMERICANO" data-size="Perhe" data-price="18.90">
+                               data-item="AMERICANO" data-size="Perhe" data-price="18.00">
                     </div>
                 </div>
             </div>
@@ -277,13 +277,13 @@
                         <div>Norm (32cm)</div>
                         <div class="price">€10.00</div>
                         <input type="number" class="quantity-input" min="0" value="0" 
-                               data-item="VEGETARIANA" data-size="Norm" data-price="12.90">
+                               data-item="VEGETARIANA" data-size="Norm" data-price="10.00">
                     </div>
                     <div class="size-option">
                         <div>Perhe (45cm)</div>
                         <div class="price">€19.00</div>
                         <input type="number" class="quantity-input" min="0" value="0" 
-                               data-item="VEGETARIANA" data-size="Perhe" data-price="18.90">
+                               data-item="VEGETARIANA" data-size="Perhe" data-price="19.00">
                     </div>
                 </div>
             </div>
@@ -297,13 +297,13 @@
                         <div>Norm (32cm)</div>
                         <div class="price">€10.00</div>
                         <input type="number" class="quantity-input" min="0" value="0" 
-                               data-item="MEXICANO" data-size="Norm" data-price="12.90">
+                               data-item="MEXICANO" data-size="Norm" data-price="10.00">
                     </div>
                     <div class="size-option">
                         <div>Perhe (45cm)</div>
                         <div class="price">€19.00</div>
                         <input type="number" class="quantity-input" min="0" value="0" 
-                               data-item="MEXICANO" data-size="Perhe" data-price="18.90">
+                               data-item="MEXICANO" data-size="Perhe" data-price="19.00">
                     </div>
                 </div>
             </div>
@@ -317,13 +317,13 @@
                         <div>Norm (32cm)</div>
                         <div class="price">€10.00</div>
                         <input type="number" class="quantity-input" min="0" value="0" 
-                               data-item="SUPER PIZZA" data-size="Norm" data-price="12.90">
+                               data-item="SUPER PIZZA" data-size="Norm" data-price="10.00">
                     </div>
                     <div class="size-option">
                         <div>Perhe (45cm)</div>
                         <div class="price">€19.00</div>
                         <input type="number" class="quantity-input" min="0" value="0" 
-                               data-item="SUPER PIZZA" data-size="Perhe" data-price="18.90">
+                               data-item="SUPER PIZZA" data-size="Perhe" data-price="19.00">
                     </div>
                 </div>
             </div>
@@ -337,13 +337,13 @@
                         <div>Norm (32cm)</div>
                         <div class="price">€11.00</div>
                         <input type="number" class="quantity-input" min="0" value="0" 
-                               data-item="CHIKEN HAWAI" data-size="Norm" data-price="12.90">
+                               data-item="CHIKEN HAWAI" data-size="Norm" data-price="11.00">
                     </div>
                     <div class="size-option">
                         <div>Perhe (45cm)</div>
                         <div class="price">€19.00</div>
                         <input type="number" class="quantity-input" min="0" value="0" 
-                               data-item="CHIKEN HAWAI" data-size="Perhe" data-price="18.90">
+                               data-item="CHIKEN HAWAI" data-size="Perhe" data-price="19.00">
                     </div>
                 </div>
             </div>
@@ -357,13 +357,13 @@
                         <div>Norm (32cm)</div>
                         <div class="price">€10.00</div>
                         <input type="number" class="quantity-input" min="0" value="0" 
-                               data-item="OPERA SPECIAL" data-size="Norm" data-price="12.90">
+                               data-item="OPERA SPECIAL" data-size="Norm" data-price="10.00">
                     </div>
                     <div class="size-option">
                         <div>Perhe (45cm)</div>
                         <div class="price">€19.00</div>
                         <input type="number" class="quantity-input" min="0" value="0" 
-                               data-item="OPERA SPECIAL" data-size="Perhe" data-price="18.90">
+                               data-item="OPERA SPECIAL" data-size="Perhe" data-price="19.00">
                     </div>
                 </div>
             </div>
@@ -377,13 +377,13 @@
                         <div>Norm (32cm)</div>
                         <div class="price">€11.00</div>
                         <input type="number" class="quantity-input" min="0" value="0" 
-                               data-item="DILINGER" data-size="Norm" data-price="12.90">
+                               data-item="DILINGER" data-size="Norm" data-price="11.00">
                     </div>
                     <div class="size-option">
                         <div>Perhe (45cm)</div>
                         <div class="price">€19.00</div>
                         <input type="number" class="quantity-input" min="0" value="0" 
-                               data-item="DILINGER" data-size="Perhe" data-price="18.90">
+                               data-item="DILINGER" data-size="Perhe" data-price="19.00">
                     </div>
                 </div>
             </div>
@@ -397,13 +397,13 @@
                         <div>Norm (32cm)</div>
                         <div class="price">€11.00</div>
                         <input type="number" class="quantity-input" min="0" value="0" 
-                               data-item="QUATTRO" data-size="Norm" data-price="12.90">
+                               data-item="QUATTRO" data-size="Norm" data-price="11.00">
                     </div>
                     <div class="size-option">
                         <div>Perhe (45cm)</div>
                         <div class="price">€19.00</div>
                         <input type="number" class="quantity-input" min="0" value="0" 
-                               data-item="QUATTRO" data-size="Perhe" data-price="18.90">
+                               data-item="QUATTRO" data-size="Perhe" data-price="19.00">
                     </div>
                 </div>
             </div>
@@ -417,13 +417,13 @@
                         <div>Norm (32cm)</div>
                         <div class="price">€11.00</div>
                         <input type="number" class="quantity-input" min="0" value="0" 
-                               data-item="JULIA" data-size="Norm" data-price="12.90">
+                               data-item="JULIA" data-size="Norm" data-price="11.00">
                     </div>
                     <div class="size-option">
                         <div>Perhe (45cm)</div>
                         <div class="price">€19.00</div>
                         <input type="number" class="quantity-input" min="0" value="0" 
-                               data-item="JULIA" data-size="Perhe" data-price="18.90">
+                               data-item="JULIA" data-size="Perhe" data-price="19.00">
                     </div>
                 </div>
             </div>
@@ -437,13 +437,13 @@
                         <div>Norm (32cm)</div>
                         <div class="price">€11.00</div>
                         <input type="number" class="quantity-input" min="0" value="0" 
-                               data-item="ROMEO" data-size="Norm" data-price="12.90">
+                               data-item="ROMEO" data-size="Norm" data-price="11.00">
                     </div>
                     <div class="size-option">
                         <div>Perhe (45cm)</div>
                         <div class="price">€19.00</div>
                         <input type="number" class="quantity-input" min="0" value="0" 
-                               data-item="ROMEO" data-size="Perhe" data-price="18.90">
+                               data-item="ROMEO" data-size="Perhe" data-price="19.00">
                     </div>
                 </div>
             </div>
@@ -457,13 +457,13 @@
                         <div>Norm (32cm)</div>
                         <div class="price">€11.00</div>
                         <input type="number" class="quantity-input" min="0" value="0" 
-                               data-item="EMPIRE SPECIAL" data-size="Norm" data-price="12.90">
+                               data-item="EMPIRE SPECIAL" data-size="Norm" data-price="11.00">
                     </div>
                     <div class="size-option">
                         <div>Perhe (45cm)</div>
                         <div class="price">€19.00</div>
                         <input type="number" class="quantity-input" min="0" value="0" 
-                               data-item="EMPIRE SPECIAL" data-size="Perhe" data-price="18.90">
+                               data-item="EMPIRE SPECIAL" data-size="Perhe" data-price="19.00">
                     </div>
                 </div>
             </div>
@@ -477,13 +477,13 @@
                         <div>Norm (32cm)</div>
                         <div class="price">€11.00</div>
                         <input type="number" class="quantity-input" min="0" value="0" 
-                               data-item="KUMMISETÄ" data-size="Norm" data-price="12.90">
+                               data-item="KUMMISETÄ" data-size="Norm" data-price="11.00">
                     </div>
                     <div class="size-option">
                         <div>Perhe (45cm)</div>
                         <div class="price">€19.00</div>
                         <input type="number" class="quantity-input" min="0" value="0" 
-                               data-item="KUMMISETÄ" data-size="Perhe" data-price="18.90">
+                               data-item="KUMMISETÄ" data-size="Perhe" data-price="19.00">
                     </div>
                 </div>
             </div>
@@ -497,13 +497,13 @@
                         <div>Norm (32cm)</div>
                         <div class="price">€11.00</div>
                         <input type="number" class="quantity-input" min="0" value="0" 
-                               data-item="PEOOERONI" data-size="Norm" data-price="12.90">
+                               data-item="PEOOERONI" data-size="Norm" data-price="11.00">
                     </div>
                     <div class="size-option">
                         <div>Perhe (45cm)</div>
                         <div class="price">€19.00</div>
                         <input type="number" class="quantity-input" min="0" value="0" 
-                               data-item="PEOOERONI" data-size="Perhe" data-price="18.90">
+                               data-item="PEOOERONI" data-size="Perhe" data-price="19.00">
                     </div>
                 </div>
             </div>
@@ -517,13 +517,13 @@
                         <div>Norm (32cm)</div>
                         <div class="price">€11.00</div>
                         <input type="number" class="quantity-input" min="0" value="0" 
-                               data-item="ITALIA" data-size="Norm" data-price="12.90">
+                               data-item="ITALIA" data-size="Norm" data-price="11.00">
                     </div>
                     <div class="size-option">
                         <div>Perhe (45cm)</div>
                         <div class="price">€20.00</div>
                         <input type="number" class="quantity-input" min="0" value="0" 
-                               data-item="ITALIA" data-size="Perhe" data-price="18.90">
+                               data-item="ITALIA" data-size="Perhe" data-price="20.00">
                     </div>
                 </div>
             </div>
@@ -537,13 +537,13 @@
                         <div>Norm (32cm)</div>
                         <div class="price">€11.00</div>
                         <input type="number" class="quantity-input" min="0" value="0" 
-                               data-item="FORMAGGIO" data-size="Norm" data-price="12.90">
+                               data-item="FORMAGGIO" data-size="Norm" data-price="11.00">
                     </div>
                     <div class="size-option">
                         <div>Perhe (45cm)</div>
                         <div class="price">€20.00</div>
                         <input type="number" class="quantity-input" min="0" value="0" 
-                               data-item="FORMAGGIO" data-size="Perhe" data-price="18.90">
+                               data-item="FORMAGGIO" data-size="Perhe" data-price="20.00">
                     </div>
                 </div>
             </div>
@@ -557,13 +557,13 @@
                         <div>Norm (32cm)</div>
                         <div class="price">€11.00</div>
                         <input type="number" class="quantity-input" min="0" value="0" 
-                               data-item="FETA PIZZA" data-size="Norm" data-price="12.90">
+                               data-item="FETA PIZZA" data-size="Norm" data-price="11.00">
                     </div>
                     <div class="size-option">
                         <div>Perhe (45cm)</div>
                         <div class="price">€20.00</div>
                         <input type="number" class="quantity-input" min="0" value="0" 
-                               data-item="FETA PIZZA" data-size="Perhe" data-price="18.90">
+                               data-item="FETA PIZZA" data-size="Perhe" data-price="20.00">
                     </div>
                 </div>
             </div>
@@ -577,13 +577,13 @@
                         <div>Norm (32cm)</div>
                         <div class="price">€11.00</div>
                         <input type="number" class="quantity-input" min="0" value="0" 
-                               data-item="SMETANA PIZZA" data-size="Norm" data-price="12.90">
+                               data-item="SMETANA PIZZA" data-size="Norm" data-price="11.00">
                     </div>
                     <div class="size-option">
                         <div>Perhe (45cm)</div>
                         <div class="price">€20.00</div>
                         <input type="number" class="quantity-input" min="0" value="0" 
-                               data-item="SMETANA PIZZA" data-size="Perhe" data-price="18.90">
+                               data-item="SMETANA PIZZA" data-size="Perhe" data-price="20.00">
                     </div>
                 </div>
             </div>
@@ -597,13 +597,13 @@
                         <div>Norm (32cm)</div>
                         <div class="price">€11.00</div>
                         <input type="number" class="quantity-input" min="0" value="0" 
-                               data-item="SUOMI SPECIAL" data-size="Norm" data-price="12.90">
+                               data-item="SUOMI SPECIAL" data-size="Norm" data-price="11.00">
                     </div>
                     <div class="size-option">
                         <div>Perhe (45cm)</div>
                         <div class="price">€19.00</div>
                         <input type="number" class="quantity-input" min="0" value="0" 
-                               data-item="SUOMI SPECIAL" data-size="Perhe" data-price="18.90">
+                               data-item="SUOMI SPECIAL" data-size="Perhe" data-price="19.00">
                     </div>
                 </div>
             </div>
@@ -617,13 +617,13 @@
                         <div>Norm (32cm)</div>
                         <div class="price">€11.00</div>
                         <input type="number" class="quantity-input" min="0" value="0" 
-                               data-item="BEEF CRISPY" data-size="Norm" data-price="12.90">
+                               data-item="BEEF CRISPY" data-size="Norm" data-price="11.00">
                     </div>
                     <div class="size-option">
                         <div>Perhe (45cm)</div>
                         <div class="price">€20.00</div>
                         <input type="number" class="quantity-input" min="0" value="0" 
-                               data-item="BEEF CRISPY" data-size="Perhe" data-price="18.90">
+                               data-item="BEEF CRISPY" data-size="Perhe" data-price="20.00">
                     </div>
                 </div>
             </div>
@@ -637,13 +637,13 @@
                         <div>Norm (32cm)</div>
                         <div class="price">€11.00</div>
                         <input type="number" class="quantity-input" min="0" value="0" 
-                               data-item="HANGOVER" data-size="Norm" data-price="12.90">
+                               data-item="HANGOVER" data-size="Norm" data-price="11.00">
                     </div>
                     <div class="size-option">
                         <div>Perhe (45cm)</div>
                         <div class="price">€20.00</div>
                         <input type="number" class="quantity-input" min="0" value="0" 
-                               data-item="HANGOVER" data-size="Perhe" data-price="18.90">
+                               data-item="HANGOVER" data-size="Perhe" data-price="20.00">
                     </div>
                 </div>
             </div>
@@ -657,13 +657,13 @@
                         <div>Norm (32cm)</div>
                         <div class="price">€11.00</div>
                         <input type="number" class="quantity-input" min="0" value="0" 
-                               data-item="SISILIAN TULINEN" data-size="Norm" data-price="12.90">
+                               data-item="SISILIAN TULINEN" data-size="Norm" data-price="11.00">
                     </div>
                     <div class="size-option">
                         <div>Perhe (45cm)</div>
                         <div class="price">€20.00</div>
                         <input type="number" class="quantity-input" min="0" value="0" 
-                               data-item="SISILIAN TULINEN" data-size="Perhe" data-price="18.90">
+                               data-item="SISILIAN TULINEN" data-size="Perhe" data-price="20.00">
                     </div>
                 </div>
             </div>
@@ -677,13 +677,13 @@
                         <div>Norm (32cm)</div>
                         <div class="price">€11.00</div>
                         <input type="number" class="quantity-input" min="0" value="0" 
-                               data-item="TEXAN STYLE BBQ" data-size="Norm" data-price="12.90">
+                               data-item="TEXAN STYLE BBQ" data-size="Norm" data-price="11.00">
                     </div>
                     <div class="size-option">
                         <div>Perhe (45cm)</div>
                         <div class="price">€20.00</div>
                         <input type="number" class="quantity-input" min="0" value="0" 
-                               data-item="TEXAN STYLE BBQ" data-size="Perhe" data-price="18.90">
+                               data-item="TEXAN STYLE BBQ" data-size="Perhe" data-price="20.00">
                     </div>
                 </div>
             </div>
@@ -697,13 +697,13 @@
                         <div>Norm (32cm)</div>
                         <div class="price">€11.00</div>
                         <input type="number" class="quantity-input" min="0" value="0" 
-                               data-item="METSAKULMA" data-size="Norm" data-price="12.90">
+                               data-item="METSAKULMA" data-size="Norm" data-price="11.00">
                     </div>
                     <div class="size-option">
                         <div>Perhe (45cm)</div>
                         <div class="price">€20.00</div>
                         <input type="number" class="quantity-input" min="0" value="0" 
-                               data-item="METSAKULMA" data-size="Perhe" data-price="18.90">
+                               data-item="METSAKULMA" data-size="Perhe" data-price="20.00">
                     </div>
                 </div>
             </div>
@@ -717,13 +717,13 @@
                         <div>Norm (32cm)</div>
                         <div class="price">€11.00</div>
                         <input type="number" class="quantity-input" min="0" value="0" 
-                               data-item="FINLANDIA" data-size="Norm" data-price="12.90">
+                               data-item="FINLANDIA" data-size="Norm" data-price="11.00">
                     </div>
                     <div class="size-option">
                         <div>Perhe (45cm)</div>
                         <div class="price">€20.00</div>
                         <input type="number" class="quantity-input" min="0" value="0" 
-                               data-item="FINLANDIA" data-size="Perhe" data-price="18.90">
+                               data-item="FINLANDIA" data-size="Perhe" data-price="20.00">
                     </div>
                 </div>
             </div>
@@ -737,13 +737,13 @@
                         <div>Norm (32cm)</div>
                         <div class="price">€11.00</div>
                         <input type="number" class="quantity-input" min="0" value="0" 
-                               data-item="KUTEN HALUATTE" data-size="Norm" data-price="12.90">
+                               data-item="KUTEN HALUATTE" data-size="Norm" data-price="11.00">
                     </div>
                     <div class="size-option">
                         <div>Perhe (45cm)</div>
                         <div class="price">€20.00</div>
                         <input type="number" class="quantity-input" min="0" value="0" 
-                               data-item="KUTEN HALUATTE" data-size="Perhe" data-price="18.90">
+                               data-item="KUTEN HALUATTE" data-size="Perhe" data-price="20.00">
                     </div>
                 </div>
             </div>
@@ -756,13 +756,13 @@
                         <div>Norm (32cm)</div>
                         <div class="price">€1.00</div>
                         <input type="number" class="quantity-input" min="0" value="0" 
-                               data-item="LISÄTÄYTTEET" data-size="Norm" data-price="12.90">
+                               data-item="LISÄTÄYTTEET" data-size="Norm" data-price="1.00">
                     </div>
                     <div class="size-option">
                         <div>Perhe (45cm)</div>
                         <div class="price">€2.00</div>
                         <input type="number" class="quantity-input" min="0" value="0" 
-                               data-item="LISÄTÄYTTEET" data-size="Perhe" data-price="18.90">
+                               data-item="LISÄTÄYTTEET" data-size="Perhe" data-price="2.00">
                     </div>
                 </div>
             </div>
@@ -784,13 +784,13 @@
                         <div>Norm (32cm)</div>
                         <div class="price">€13.00</div>
                         <input type="number" class="quantity-input" min="0" value="0" 
-                               data-item="SPICE VEGE" data-size="Norm" data-price="15.90">
+                               data-item="SPICE VEGE" data-size="Norm" data-price="13.00">
                     </div>
                     <div class="size-option">
                         <div>Perhe (45cm)</div>
                         <div class="price">18.50</div>
                         <input type="number" class="quantity-input" min="0" value="0" 
-                               data-item="SPICE VEGE" data-size="Perhe" data-price="22.90">
+                               data-item="SPICE VEGE" data-size="Perhe" data-price="18.50">
                     </div>
                 </div>
             </div>
@@ -804,13 +804,13 @@
                         <div>Norm (32cm)</div>
                         <div class="price">€13.00</div>
                         <input type="number" class="quantity-input" min="0" value="0" 
-                               data-item="ITALIANO CLASSICO" data-size="Norm" data-price="15.90">
+                               data-item="ITALIANO CLASSICO" data-size="Norm" data-price="13.00">
                     </div>
                     <div class="size-option">
                         <div>Perhe (45cm)</div>
                         <div class="price">18.50</div>
                         <input type="number" class="quantity-input" min="0" value="0" 
-                               data-item="ITALIANO CLASSICO" data-size="Perhe" data-price="22.90">
+                               data-item="ITALIANO CLASSICO" data-size="Perhe" data-price="18.50">
                     </div>
                 </div>
             </div>
@@ -824,13 +824,13 @@
                         <div>Norm (32cm)</div>
                         <div class="price">€13.00</div>
                         <input type="number" class="quantity-input" min="0" value="0" 
-                               data-item="ANNABELLA" data-size="Norm" data-price="15.90">
+                               data-item="ANNABELLA" data-size="Norm" data-price="13.00">
                     </div>
                     <div class="size-option">
                         <div>Perhe (45cm)</div>
                         <div class="price">18.50</div>
                         <input type="number" class="quantity-input" min="0" value="0" 
-                               data-item="ANNABELLA" data-size="Perhe" data-price="22.90">
+                               data-item="ANNABELLA" data-size="Perhe" data-price="18.50">
                     </div>
                 </div>
             </div>
@@ -844,13 +844,13 @@
                         <div>Norm (32cm)</div>
                         <div class="price">€13.00</div>
                         <input type="number" class="quantity-input" min="0" value="0" 
-                               data-item="PIZZA LA MARGERITTA" data-size="Norm" data-price="15.90">
+                               data-item="PIZZA LA MARGERITTA" data-size="Norm" data-price="13.00">
                     </div>
                     <div class="size-option">
                         <div>Perhe (45cm)</div>
                         <div class="price">18.50</div>
                         <input type="number" class="quantity-input" min="0" value="0" 
-                               data-item="PIZZA LA MARGERITTA" data-size="Perhe" data-price="22.90">
+                               data-item="PIZZA LA MARGERITTA" data-size="Perhe" data-price="18.50">
                     </div>
                 </div>
             </div>
@@ -864,13 +864,13 @@
                         <div>Norm (32cm)</div>
                         <div class="price">€13.00</div>
                         <input type="number" class="quantity-input" min="0" value="0" 
-                               data-item="ZORPAS" data-size="Norm" data-price="15.90">
+                               data-item="ZORPAS" data-size="Norm" data-price="13.00">
                     </div>
                     <div class="size-option">
                         <div>Perhe (45cm)</div>
                         <div class="price">20.50</div>
                         <input type="number" class="quantity-input" min="0" value="0" 
-                               data-item="ZORPAS" data-size="Perhe" data-price="22.90">
+                               data-item="ZORPAS" data-size="Perhe" data-price="20.50">
                     </div>
                 </div>
             </div>
@@ -884,13 +884,13 @@
                         <div>Norm (32cm)</div>
                         <div class="price">€13.00</div>
                         <input type="number" class="quantity-input" min="0" value="0" 
-                               data-item="MIESTEN VEGA-PIZZA" data-size="Norm" data-price="15.90">
+                               data-item="MIESTEN VEGA-PIZZA" data-size="Norm" data-price="13.00">
                     </div>
                     <div class="size-option">
                         <div>Perhe (45cm)</div>
                         <div class="price">20.50</div>
                         <input type="number" class="quantity-input" min="0" value="0" 
-                               data-item="MIESTEN VEGA-PIZZA" data-size="Perhe" data-price="22.90">
+                               data-item="MIESTEN VEGA-PIZZA" data-size="Perhe" data-price="20.50">
                     </div>
                 </div>
             </div>
@@ -904,13 +904,13 @@
                         <div>Norm (32cm)</div>
                         <div class="price">€13.00</div>
                         <input type="number" class="quantity-input" min="0" value="0" 
-                               data-item="BACCO" data-size="Norm" data-price="15.90">
+                               data-item="BACCO" data-size="Norm" data-price="13.00">
                     </div>
                     <div class="size-option">
                         <div>Perhe (45cm)</div>
                         <div class="price">18.50</div>
                         <input type="number" class="quantity-input" min="0" value="0" 
-                               data-item="BACCO" data-size="Perhe" data-price="22.90">
+                               data-item="BACCO" data-size="Perhe" data-price="18.50">
                     </div>
                 </div>
             </div>
@@ -924,13 +924,13 @@
                         <div>Norm (32cm)</div>
                         <div class="price">€13.00</div>
                         <input type="number" class="quantity-input" min="0" value="0" 
-                               data-item="RUCOLA PIZZA" data-size="Norm" data-price="15.90">
+                               data-item="RUCOLA PIZZA" data-size="Norm" data-price="13.00">
                     </div>
                     <div class="size-option">
                         <div>Perhe (45cm)</div>
                         <div class="price">18.50</div>
                         <input type="number" class="quantity-input" min="0" value="0" 
-                               data-item="RUCOLA PIZZA" data-size="Perhe" data-price="22.90">
+                               data-item="RUCOLA PIZZA" data-size="Perhe" data-price="18.50">
                     </div>
                 </div>
             </div>
@@ -944,13 +944,13 @@
                         <div>Norm (32cm)</div>
                         <div class="price">€13.00</div>
                         <input type="number" class="quantity-input" min="0" value="0" 
-                               data-item="MOZZARELLA-PESTO" data-size="Norm" data-price="15.90">
+                               data-item="MOZZARELLA-PESTO" data-size="Norm" data-price="13.00">
                     </div>
                     <div class="size-option">
                         <div>Perhe (45cm)</div>
                         <div class="price">18.50</div>
                         <input type="number" class="quantity-input" min="0" value="0" 
-                               data-item="MOZZARELLA-PESTO" data-size="Perhe" data-price="22.90">
+                               data-item="MOZZARELLA-PESTO" data-size="Perhe" data-price="18.50">
                     </div>
                 </div>
             </div>
@@ -964,13 +964,13 @@
                         <div>Norm (32cm)</div>
                         <div class="price">€13.00</div>
                         <input type="number" class="quantity-input" min="0" value="0" 
-                               data-item="PICCANTE" data-size="Norm" data-price="15.90">
+                               data-item="PICCANTE" data-size="Norm" data-price="13.00">
                     </div>
                     <div class="size-option">
                         <div>Perhe (45cm)</div>
                         <div class="price">18.50</div>
                         <input type="number" class="quantity-input" min="0" value="0" 
-                               data-item="PICCANTE" data-size="Perhe" data-price="22.90">
+                               data-item="PICCANTE" data-size="Perhe" data-price="18.50">
                     </div>
                 </div>
             </div>
@@ -984,13 +984,13 @@
                         <div>Norm (32cm)</div>
                         <div class="price">€13.00</div>
                         <input type="number" class="quantity-input" min="0" value="0" 
-                               data-item="CHORIZOMAKKARAPIZZA" data-size="Norm" data-price="15.90">
+                               data-item="CHORIZOMAKKARAPIZZA" data-size="Norm" data-price="13.00">
                     </div>
                     <div class="size-option">
                         <div>Perhe (45cm)</div>
                         <div class="price">18.50</div>
                         <input type="number" class="quantity-input" min="0" value="0" 
-                               data-item="CHORIZOMAKKARAPIZZA" data-size="Perhe" data-price="22.90">
+                               data-item="CHORIZOMAKKARAPIZZA" data-size="Perhe" data-price="18.50">
                     </div>
                 </div>
             </div>
@@ -1012,7 +1012,7 @@
                         <div class="price">€10.00</div>
                     </div>
                     <input type="number" class="quantity-input" min="0" value="0"
-                           data-item="RANSKALAISILLA" data-size="Norm" data-price="15.90">
+                           data-item="RANSKALAISILLA" data-size="Norm" data-price="10.00">
                 </div>
             </div>
         </div>
@@ -1026,7 +1026,7 @@
                         <div class="price">€10.00</div>
                     </div>
                     <input type="number" class="quantity-input" min="0" value="0"
-                           data-item="LOHKOPERUNOILLA" data-size="Norm" data-price="15.90">
+                           data-item="LOHKOPERUNOILLA" data-size="Norm" data-price="10.00">
                 </div>
             </div>
         </div>
@@ -1040,7 +1040,7 @@
                         <div class="price">€10.00</div>
                     </div>
                     <input type="number" class="quantity-input" min="0" value="0"
-                           data-item="KERMAPERUNOILLA" data-size="Norm" data-price="15.90">
+                           data-item="KERMAPERUNOILLA" data-size="Norm" data-price="10.00">
                 </div>
             </div>
         </div>
@@ -1054,7 +1054,7 @@
                         <div class="price">€10.00</div>
                     </div>
                     <input type="number" class="quantity-input" min="0" value="0"
-                           data-item="RISILLA" data-size="Norm" data-price="15.90">
+                           data-item="RISILLA" data-size="Norm" data-price="10.00">
                 </div>
             </div>
         </div>
@@ -1069,7 +1069,7 @@
                         <div class="price">€10.00</div>
                     </div>
                     <input type="number" class="quantity-input" min="0" value="0"
-                           data-item="KERMAPERUNOILLA" data-size="Norm" data-price="15.90">
+                           data-item="KERMAPERUNOILLA" data-size="Norm" data-price="10.00">
                 </div>
             </div>
         </div>
@@ -1084,7 +1084,7 @@
                         <div class="price">€10.00</div>
                     </div>
                     <input type="number" class="quantity-input" min="0" value="0"
-                           data-item="KANARULLA" data-size="Norm" data-price="15.90">
+                           data-item="KANARULLA" data-size="Norm" data-price="10.00">
                 </div>
             </div>
         </div>
@@ -1099,7 +1099,7 @@
                         <div class="price">€10.00</div>
                     </div>
                     <input type="number" class="quantity-input" min="0" value="0"
-                           data-item="KANA CALZONE" data-size="Norm" data-price="15.90">
+                           data-item="KANA CALZONE" data-size="Norm" data-price="10.00">
                 </div>
             </div>
         </div>
@@ -1121,7 +1121,7 @@
                         <div class="price">€10.00</div>
                     </div>
                     <input type="number" class="quantity-input" min="0" value="0"
-                           data-item="ISKENDAR KEBAB" data-size="Norm" data-price="15.90">
+                           data-item="ISKENDAR KEBAB" data-size="Norm" data-price="10.00">
                 </div>
             </div>
         </div>
@@ -1135,7 +1135,7 @@
                         <div class="price">€10.00</div>
                     </div>
                     <input type="number" class="quantity-input" min="0" value="0"
-                           data-item="KEBAB RANSKALAISILLA" data-size="Norm" data-price="15.90">
+                           data-item="KEBAB RANSKALAISILLA" data-size="Norm" data-price="10.00">
                 </div>
             </div>
         </div>
@@ -1149,7 +1149,7 @@
                         <div class="price">€10.00</div>
                     </div>
                     <input type="number" class="quantity-input" min="0" value="0"
-                           data-item="KEBAB RIISILLA" data-size="Norm" data-price="15.90">
+                           data-item="KEBAB RIISILLA" data-size="Norm" data-price="10.00">
                 </div>
             </div>
         </div>
@@ -1163,7 +1163,7 @@
                         <div class="price">€10.00</div>
                     </div>
                     <input type="number" class="quantity-input" min="0" value="0"
-                           data-item="KEBAB LOHKOPERUNOILLA" data-size="Norm" data-price="15.90">
+                           data-item="KEBAB LOHKOPERUNOILLA" data-size="Norm" data-price="10.00">
                 </div>
             </div>
         </div>
@@ -1177,7 +1177,7 @@
                         <div class="price">€10.00</div>
                     </div>
                     <input type="number" class="quantity-input" min="0" value="0"
-                           data-item="KEBAB SALAATILLA" data-size="Norm" data-price="15.90">
+                           data-item="KEBAB SALAATILLA" data-size="Norm" data-price="10.00">
                 </div>
             </div>
         </div>
@@ -1192,7 +1192,7 @@
                         <div class="price">€10.00</div>
                     </div>
                     <input type="number" class="quantity-input" min="0" value="0"
-                           data-item="LEIPAKEBAB" data-size="Norm" data-price="15.90">
+                           data-item="LEIPAKEBAB" data-size="Norm" data-price="10.00">
                 </div>
             </div>
         </div>
@@ -1207,7 +1207,7 @@
                         <div class="price">€10.00</div>
                     </div>
                     <input type="number" class="quantity-input" min="0" value="0"
-                           data-item="RULLAKEBAB" data-size="Norm" data-price="15.90">
+                           data-item="RULLAKEBAB" data-size="Norm" data-price="10.00">
                 </div>
             </div>
         </div>
@@ -1222,7 +1222,7 @@
                         <div class="price">€10.00</div>
                     </div>
                     <input type="number" class="quantity-input" min="0" value="0"
-                           data-item="KEBAB CALZONE VIKING BOUT" data-size="Norm" data-price="15.90">
+                           data-item="KEBAB CALZONE VIKING BOUT" data-size="Norm" data-price="10.00">
                 </div>
             </div>
         </div>
@@ -1237,7 +1237,7 @@
                         <div class="price">€10.00</div>
                     </div>
                     <input type="number" class="quantity-input" min="0" value="0"
-                           data-item="MEGAKEBAB" data-size="Norm" data-price="15.90">
+                           data-item="MEGAKEBAB" data-size="Norm" data-price="10.00">
                 </div>
             </div>
         </div>
@@ -1259,13 +1259,13 @@
                     <div>Hamp.</div>
                     <div class="price">€9.00</div>
                     <input type="number" class="quantity-input" min="0" value="0" 
-                           data-item="HAMPURILAINEN" data-size="Norm" data-price="15.90">
+                           data-item="HAMPURILAINEN" data-size="Norm" data-price="9.00">
                 </div>
                 <div class="size-option">
                     <div>Ateria</div>
                     <div class="price">€11.00</div>
                     <input type="number" class="quantity-input" min="0" value="0" 
-                           data-item="Metsäkrouvi" data-size="Perhe" data-price="22.90">
+                           data-item="Metsäkrouvi" data-size="Perhe" data-price="11.00">
                 </div>
             </div>
         </div>
@@ -1279,13 +1279,13 @@
                     <div>Hamp.</div>
                     <div class="price">€10.00</div>
                     <input type="number" class="quantity-input" min="0" value="0" 
-                           data-item="KERROSHAMPURILAINEN" data-size="Norm" data-price="15.90">
+                           data-item="KERROSHAMPURILAINEN" data-size="Norm" data-price="10.00">
                 </div>
                 <div class="size-option">
                     <div>Ateria</div>
                     <div class="price">€12.00</div>
                     <input type="number" class="quantity-input" min="0" value="0" 
-                           data-item="KERROSHAMPURILAINEN" data-size="Perhe" data-price="22.90">
+                           data-item="KERROSHAMPURILAINEN" data-size="Perhe" data-price="12.00">
                 </div>
             </div>
         </div>
@@ -1299,13 +1299,13 @@
                     <div>Hamp.</div>
                     <div class="price">€13.00</div>
                     <input type="number" class="quantity-input" min="0" value="0" 
-                           data-item="KING BURGER" data-size="Norm" data-price="15.90">
+                           data-item="KING BURGER" data-size="Norm" data-price="13.00">
                 </div>
                 <div class="size-option">
                     <div>Ateria</div>
                     <div class="price">€15.00</div>
                     <input type="number" class="quantity-input" min="0" value="0" 
-                           data-item="KING BURGER" data-size="Perhe" data-price="22.90">
+                           data-item="KING BURGER" data-size="Perhe" data-price="15.00">
                 </div>
             </div>
         </div>
@@ -1319,13 +1319,13 @@
                     <div>Hamp.</div>
                     <div class="price">€10.00</div>
                     <input type="number" class="quantity-input" min="0" value="0" 
-                           data-item="TUPLAJUUSTOBURGER" data-size="Norm" data-price="15.90">
+                           data-item="TUPLAJUUSTOBURGER" data-size="Norm" data-price="10.00">
                 </div>
                 <div class="size-option">
                     <div>Ateria</div>
                     <div class="price">€12.00</div>
                     <input type="number" class="quantity-input" min="0" value="0" 
-                           data-item="TUPLAJUUSTOBURGER" data-size="Perhe" data-price="22.90">
+                           data-item="TUPLAJUUSTOBURGER" data-size="Perhe" data-price="12.00">
                 </div>
             </div>
         </div>
@@ -1339,13 +1339,13 @@
                     <div>Hamp.</div>
                     <div class="price">€8.00</div>
                     <input type="number" class="quantity-input" min="0" value="0" 
-                           data-item="KANA BBQ" data-size="Norm" data-price="15.90">
+                           data-item="KANA BBQ" data-size="Norm" data-price="8.00">
                 </div>
                 <div class="size-option">
                     <div>Ateria</div>
                     <div class="price">€10.00</div>
                     <input type="number" class="quantity-input" min="0" value="0" 
-                           data-item="KANA BBQ" data-size="Perhe" data-price="22.90">
+                           data-item="KANA BBQ" data-size="Perhe" data-price="10.00">
                 </div>
             </div>
         </div>
@@ -1359,13 +1359,13 @@
                     <div>Hamp.</div>
                     <div class="price">€11.00</div>
                     <input type="number" class="quantity-input" min="0" value="0" 
-                           data-item="HALLOUMIJUUSTOHAMPURILAINEN" data-size="Norm" data-price="15.90">
+                           data-item="HALLOUMIJUUSTOHAMPURILAINEN" data-size="Norm" data-price="11.00">
                 </div>
                 <div class="size-option">
                     <div>Ateria</div>
                     <div class="price">€13.00</div>
                     <input type="number" class="quantity-input" min="0" value="0" 
-                           data-item="HALLOUMIJUUSTOHAMPURILAINEN" data-size="Perhe" data-price="22.90">
+                           data-item="HALLOUMIJUUSTOHAMPURILAINEN" data-size="Perhe" data-price="13.00">
                 </div>
             </div>
         </div>
@@ -1387,7 +1387,7 @@
                         <div class="price">€9.00</div>
                     </div>
                     <input type="number" class="quantity-input" min="0" value="0"
-                           data-item="PITA FALAFEL" data-size="Norm" data-price="15.90">
+                           data-item="PITA FALAFEL" data-size="Norm" data-price="9.00">
                 </div>
             </div>
         </div>
@@ -1401,7 +1401,7 @@
                         <div class="price">€10.00</div>
                     </div>
                     <input type="number" class="quantity-input" min="0" value="0"
-                           data-item="RIISILLA" data-size="Norm" data-price="15.90">
+                           data-item="RIISILLA" data-size="Norm" data-price="10.00">
                 </div>
             </div>
         </div>
@@ -1415,7 +1415,7 @@
                         <div class="price">€10.00</div>
                     </div>
                     <input type="number" class="quantity-input" min="0" value="0"
-                           data-item="RANSKALAISILLA" data-size="Norm" data-price="15.90">
+                           data-item="RANSKALAISILLA" data-size="Norm" data-price="10.00">
                 </div>
             </div>
         </div>
@@ -1429,7 +1429,7 @@
                         <div class="price">€10.00</div>
                     </div>
                     <input type="number" class="quantity-input" min="0" value="0"
-                           data-item="LOHKOPERUNOILLA" data-size="Norm" data-price="15.90">
+                           data-item="LOHKOPERUNOILLA" data-size="Norm" data-price="10.00">
                 </div>
             </div>
         </div>
@@ -1443,7 +1443,7 @@
                         <div class="price">€10.00</div>
                     </div>
                     <input type="number" class="quantity-input" min="0" value="0"
-                           data-item="FALAFELRULLA" data-size="Norm" data-price="15.90">
+                           data-item="FALAFELRULLA" data-size="Norm" data-price="10.00">
                 </div>
             </div>
         </div>
@@ -1457,7 +1457,7 @@
                         <div class="price">€10.00</div>
                     </div>
                     <input type="number" class="quantity-input" min="0" value="0"
-                           data-item="FALAFEL SALATTILLA" data-size="Norm" data-price="15.90">
+                           data-item="FALAFEL SALATTILLA" data-size="Norm" data-price="10.00">
                 </div>
             </div>
         </div>
@@ -1471,7 +1471,7 @@
                         <div class="price">€10.00</div>
                     </div>
                     <input type="number" class="quantity-input" min="0" value="0"
-                           data-item="KERMAPERUNOILLA" data-size="Norm" data-price="15.90">
+                           data-item="KERMAPERUNOILLA" data-size="Norm" data-price="10.00">
                 </div>
             </div>
         </div>
@@ -1485,7 +1485,7 @@
                         <div class="price">€10.00</div>
                     </div>
                     <input type="number" class="quantity-input" min="0" value="0"
-                           data-item="VALKOSIPULIKERMAPERUNOILLA" data-size="Norm" data-price="15.90">
+                           data-item="VALKOSIPULIKERMAPERUNOILLA" data-size="Norm" data-price="10.00">
                 </div>
             </div>
         </div>
@@ -1509,7 +1509,7 @@
                         <div class="price">€10.00</div>
                     </div>
                     <input type="number" class="quantity-input" min="0" value="0"
-                           data-item="MAKKARAPERUNAT" data-size="Norm" data-price="15.90">
+                           data-item="MAKKARAPERUNAT" data-size="Norm" data-price="10.00">
                 </div>
             </div>
         </div>
@@ -1531,7 +1531,7 @@
                         <div class="price">€11.00</div>
                     </div>
                     <input type="number" class="quantity-input" min="0" value="0"
-                           data-item="KANASALAATTI" data-size="Norm" data-price="15.90">
+                           data-item="KANASALAATTI" data-size="Norm" data-price="11.00">
                 </div>
             </div>
         </div>
@@ -1546,7 +1546,7 @@
                         <div class="price">€11.00</div>
                     </div>
                     <input type="number" class="quantity-input" min="0" value="0"
-                           data-item="JUUSTOSALAATTI" data-size="Norm" data-price="15.90">
+                           data-item="JUUSTOSALAATTI" data-size="Norm" data-price="11.00">
                 </div>
             </div>
         </div>
@@ -1561,7 +1561,7 @@
                         <div class="price">€11.00</div>
                     </div>
                     <input type="number" class="quantity-input" min="0" value="0"
-                           data-item="TONNIKALASALAATTI" data-size="Norm" data-price="15.90">
+                           data-item="TONNIKALASALAATTI" data-size="Norm" data-price="11.00">
                 </div>
             </div>
         </div>
@@ -1584,7 +1584,7 @@
                         <div class="price">€12.00</div>
                     </div>
                     <input type="number" class="quantity-input" min="0" value="0"
-                           data-item="CORNER KEBAB" data-size="Norm" data-price="15.90">
+                           data-item="CORNER KEBAB" data-size="Norm" data-price="12.00">
                 </div>
             </div>
         </div>
@@ -1599,7 +1599,7 @@
                         <div class="price">€12.00</div>
                     </div>
                     <input type="number" class="quantity-input" min="0" value="0"
-                           data-item="RULLAKEBAB-AURA" data-size="Norm" data-price="15.90">
+                           data-item="RULLAKEBAB-AURA" data-size="Norm" data-price="12.00">
                 </div>
             </div>
         </div>
@@ -1622,7 +1622,7 @@
                         <div class="price">€8.00</div>
                     </div>
                     <input type="number" class="quantity-input" min="0" value="0"
-                           data-item="LASTEN PIZZA" data-size="Norm" data-price="15.90">
+                           data-item="LASTEN PIZZA" data-size="Norm" data-price="8.00">
                 </div>
             </div>
         </div>
@@ -1636,7 +1636,7 @@
                         <div class="price">€8.00</div>
                     </div>
                     <input type="number" class="quantity-input" min="0" value="0"
-                           data-item="LASTEN kebab-annos" data-size="Norm" data-price="15.90">
+                           data-item="LASTEN kebab-annos" data-size="Norm" data-price="8.00">
                 </div>
             </div>
         </div>
@@ -1651,7 +1651,7 @@
                         <div class="price">€8.00</div>
                     </div>
                     <input type="number" class="quantity-input" min="0" value="0"
-                           data-item="NUGETTIATERIA" data-size="Norm" data-price="15.90">
+                           data-item="NUGETTIATERIA" data-size="Norm" data-price="8.00">
                 </div>
             </div>
         </div>        
@@ -1673,7 +1673,7 @@
                         <div class="price">€5.00</div>
                     </div>
                     <input type="number" class="quantity-input" min="0" value="0"
-                           data-item="1,5 L JUOMA" data-size="Norm" data-price="15.90">
+                           data-item="1,5 L JUOMA" data-size="Norm" data-price="5.00">
                 </div>
             </div>
         </div>        
@@ -1687,7 +1687,7 @@
                         <div class="price">€4.00</div>
                     </div>
                     <input type="number" class="quantity-input" min="0" value="0"
-                           data-item="0,5 L JUOMA" data-size="Norm" data-price="15.90">
+                           data-item="0,5 L JUOMA" data-size="Norm" data-price="4.00">
                 </div>
             </div>
         </div>  
@@ -1701,7 +1701,7 @@
                         <div class="price">€3.00</div>
                     </div>
                     <input type="number" class="quantity-input" min="0" value="0"
-                           data-item="0,33 L JUOMA" data-size="Norm" data-price="15.90">
+                           data-item="0,33 L JUOMA" data-size="Norm" data-price="3.00">
                 </div>
             </div>
         </div>  

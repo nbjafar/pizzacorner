@@ -141,6 +141,26 @@
         .delivery-options input[type="radio"] {
             margin-right: 5px;
         }
+        .add-ons {
+            margin-top: 10px;
+            width: 30%;
+            padding-top: 10px;
+            text-align: left;
+            margin-left: 100px;
+        }
+        .add-ons h4 {
+            margin: 0 0 8px 0;
+            font-size: 0.9rem;
+            color: #666;
+        }
+        .add-ons label {
+            display: block;
+            margin: 4px 0;
+            font-size: 0.9rem;
+        }
+        .add-ons input[type="checkbox"] {
+            margin-right: 8px;
+        }
     </style>
 </head>
 <body>
@@ -171,6 +191,25 @@
                 <div class="item-info">
                     <h3>1. MARGHERITA</h3>
                     <small>(tomaatti, mozzarella, basilika)</small>
+                </div>
+                <div class="add-ons">
+                    <h4>Lisävalinnat (+€1/kpl):</h4>
+                    <label>
+                        <input type="checkbox" data-addon="Extra juusto">
+                        Extra juusto
+                    </label>
+                    <label>
+                        <input type="checkbox" data-addon="Extra kastike">
+                        Extra kastike
+                    </label>
+                    <label>
+                        <input type="checkbox" data-addon="Chili">
+                        Chili
+                    </label>
+                    <label>
+                        <input type="checkbox" data-addon="Valkosipuli">
+                        Valkosipuli
+                    </label>
                 </div>
                 <div class="size-container">
                     <div class="size-option">
@@ -1736,62 +1775,95 @@
 
     
     <script>
-// Modify the prepareOrder() function like this:
-function prepareOrder() {
-    const deliveryType = document.querySelector('input[name="deliveryType"]:checked');
-    if (!deliveryType) {
-        alert("Valitse toimitusmuoto (nouto tai kotiinkuljetus)!");
-        return;
-    }
-
-    let message = "Hei! Haluaisin tilata seuraavat tuotteet:\n\n";
-    let total = 0;
-    let hasItems = false;
-
-    document.querySelectorAll('.quantity-input').forEach(input => {
-        const quantity = parseInt(input.value);
-        if(quantity > 0) {
-            hasItems = true;
-            const itemName = input.closest('.menu-item').querySelector('h3').textContent.trim();
-            const size = input.dataset.size;
-            const price = parseFloat(input.dataset.price);
-            const itemTotal = quantity * price;
-
-            message += `🍕 ${itemName} (${size})\n`;
-            message += `Määrä: ${quantity} x €${price.toFixed(2)} = €${itemTotal.toFixed(2)}\n\n`;
-            total += itemTotal;
+        function prepareOrder() {
+            const deliveryType = document.querySelector('input[name="deliveryType"]:checked');
+            if (!deliveryType) {
+                alert("Valitse toimitusmuoto (nouto tai kotiinkuljetus)!");
+                return;
+            }
+        
+            let message = "Hei! Haluaisin tilata seuraavat tuotteet:\n\n";
+            let total = 0;
+            let hasItems = false;
+        
+            document.querySelectorAll('.menu-item').forEach(menuItem => {
+                let itemTotal = 0;
+                let itemMessage = "";
+                let itemCount = 0;
+                const addOns = [];
+        
+                // Process size options
+                menuItem.querySelectorAll('.quantity-input').forEach(input => {
+                    const quantity = parseInt(input.value);
+                    if(quantity > 0) {
+                        hasItems = true;
+                        const size = input.dataset.size;
+                        const price = parseFloat(input.dataset.price);
+                        const sizeTotal = quantity * price;
+                        
+                        itemMessage += `🍕 ${menuItem.querySelector('h3').textContent.trim()} (${size})\n`;
+                        itemMessage += `Määrä: ${quantity} x €${price.toFixed(2)} = €${sizeTotal.toFixed(2)}\n`;
+                        itemTotal += sizeTotal;
+                        itemCount += quantity;
+                    }
+                });
+        
+                // Process add-ons
+                menuItem.querySelectorAll('.add-ons input[type="checkbox"]:checked').forEach(addOn => {
+                    const addOnName = addOn.dataset.addon;
+                    const addOnPrice = itemCount * 1; // 1€ per item
+                    addOns.push({
+                        name: addOnName,
+                        price: addOnPrice
+                    });
+                });
+        
+                // Add to total and message
+                if(itemTotal > 0) {
+                    message += itemMessage;
+                    
+                    if(addOns.length > 0) {
+                        message += "Lisävalinnat:\n";
+                        addOns.forEach(addOn => {
+                            message += `• ${addOn.name} (+€${addOn.price.toFixed(2)}\n`;
+                            total += addOn.price;
+                        });
+                    }
+                    
+                    message += "\n";
+                    total += itemTotal;
+                }
+            });
+        
+            if(!hasItems) {
+                alert("Ole hyvä ja valitse tuotteita ennen tilauksen lähettämistä!");
+                return;
+            }
+        
+            // Calculate discount and delivery
+            const discount = total * 0.1;
+            let discountedTotal = total - discount;
+            let deliveryCost = 0;
+            
+            if(deliveryType.value === 'delivery') {
+                deliveryCost = 4;
+                discountedTotal += deliveryCost;
+            }
+        
+            // Build final message
+            message += `────────────────\n`;
+            message += `Alkuperäinen summa: €${total.toFixed(2)}\n`;
+            message += `10% alennus: -€${discount.toFixed(2)}\n`;
+            if(deliveryCost > 0) {
+                message += `Kotiinkuljetus: +€${deliveryCost.toFixed(2)}\n`;
+            }
+            message += `Loppusumma: €${discountedTotal.toFixed(2)}\n\n`;
+            message += `Toimitustapa: ${deliveryType.value === 'delivery' ? 'Kotiinkuljetus' : 'Nouto'}\n`;
+            message += "Toimitustiedot:\n- Nimi:\n- Osoite:\n- Puhelinnumero:\n- Lisätiedot:\n\nKiitos!";
+        
+            const encodedMessage = encodeURIComponent(message);
+            window.open(`https://wa.me/358466367424?text=${encodedMessage}`, '_blank');
         }
-    });
-
-    if(!hasItems) {
-        alert("Ole hyvä ja valitse tuotteita ennen tilauksen lähettämistä!");
-        return;
-    }
-
-    // Calculate discount
-    const discount = total * 0.1;
-    let discountedTotal = total - discount;
-    
-    // Add delivery cost if needed
-    let deliveryCost = 0;
-    if(deliveryType.value === 'delivery') {
-        deliveryCost = 4;
-        discountedTotal += deliveryCost;
-    }
-
-    message += `────────────────\n`;
-    message += `Alkuperäinen summa: €${total.toFixed(2)}\n`;
-    message += `10% alennus: -€${discount.toFixed(2)}\n`;
-    if(deliveryCost > 0) {
-        message += `Kotiinkuljetus: +€${deliveryCost.toFixed(2)}\n`;
-    }
-    message += `Loppusumma: €${discountedTotal.toFixed(2)}\n\n`;
-    message += `Toimitustapa: ${deliveryType.value === 'delivery' ? 'Kotiinkuljetus' : 'Nouto'}\n`;
-    message += "Toimitustiedot:\n- Nimi:\n- Osoite:\n- Puhelinnumero:\n- Lisätiedot:\n\nKiitos!";
-
-    const encodedMessage = encodeURIComponent(message);
-    window.open(`https://wa.me/358466367424?text=${encodedMessage}`, '_blank');
-}
-    </script>
+        </script>
 </body>
 </html>
